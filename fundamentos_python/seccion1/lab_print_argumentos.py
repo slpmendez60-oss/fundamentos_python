@@ -1,21 +1,21 @@
-# ============================================================
-# LAB: La función print() y sus argumentos
-# Sección 1 – El Programa "¡Hola, Mundo!"
-# ============================================================
 
-# Múltiples argumentos separados por coma
-print("La Witsi Witsi Araña", "subió", "a su telaraña.")
+# LAB: La funcion print() y sus argumentos
+# Seccion 1 – El Programa "¡Hola, Mundo!"
+
+
+# Multiples argumentos separados por coma
+print("La Witsi Witsi Araña", "subio", "a su telaraña.")
 
 # Argumentos posicionales
 print("Mi nombre es", "Python.")
 print("Monty Python.")
 
 # Argumento de palabra clave: end
-# Evita el salto de línea al final
+# Evita el salto de linea al final
 print("Mi nombre es", "Python.", end=" ")
 print("Monty Python.")
 
-# end vacío: no agrega nada al final
+# end vacio: no agrega nada al final
 print("Mi nombre es ", end="")
 print("Monty Python.")
 
