@@ -1,6 +1,6 @@
-# Fundamentos de Python – GA1-220501093-04-AA1-EV01
+# Fundamentos de Python 
 
-Repositorio del proyecto de fundamentos de Python. Contiene los scripts de cada laboratorio de las Secciones 1 a 4, más la solución completa de los ejercicios de operadores matemáticos.
+Repositorio del proyecto de fundamentos de Python. Contiene los scripts de cada laboratorio de las Secciones 1 a 4, mas la solucion completa de los ejercicios de operadores matematicos.
 
 ---
 
@@ -27,7 +27,7 @@ fundamentos_python/
 
 ---
 
-## Cómo ejecutar los programas
+## Como ejecutar los programas
 
 Requisitos: Python 3.6 o superior instalado.
 
@@ -40,42 +40,42 @@ python src/puntaje_final_jugador.py
 
 ---
 
-## Sección 1 – El Programa "¡Hola, Mundo!"
+## Seccion 1 – El Programa "¡Hola, Mundo!"
 
 ### Conceptos cubiertos
-- La función `print()` y cómo envía texto a la consola.
+- La funcion `print()` y como envia texto a la consola.
 - Argumentos posicionales y de palabra clave (`end`, `sep`).
 - Caracteres de escape (`\n`, `\\`).
-- Invocación de funciones en Python.
+- Invocacion de funciones en Python.
 
 ### Scripts
-| Archivo | Descripción |
+| Archivo | Descripcion |
 |---|---|
-| `lab_print_basico.py` | Primer programa, saltos de línea, `\n` |
-| `lab_print_argumentos.py` | Múltiples argumentos, `end` y `sep` |
+| `lab_print_basico.py` | Primer programa, saltos de linea, `\n` |
+| `lab_print_argumentos.py` | Multiples argumentos, `end` y `sep` |
 | `lab_formato_salida.py` | Formato de tabla, separadores personalizados |
 
 ---
 
-## Sección 2 – Literales de Python
+## Seccion 2 – Literales de Python
 
 ### Conceptos cubiertos
-- Qué es un **literal**: dato cuyo valor está determinado por sí mismo.
+- Que es un **literal**: dato cuyo valor esta determinado por sí mismo.
 - Tipos de literales: **enteros**, **flotantes**, **cadenas**, **booleanos**, `None`.
 - Números octales (`0o`) y hexadecimales (`0x`).
-- Notación científica (`3E8`, `6.62607E-34`).
+- Notacion cientifica (`3E8`, `6.62607E-34`).
 - Cadenas con comillas dobles, simples y caracteres de escape.
 
 ### Scripts
-| Archivo | Descripción |
+| Archivo | Descripcion |
 |---|---|
 | `lab_literales_cadenas.py` | Todos los tipos de literales en Python |
 
 ---
 
-## Sección 3 – Operadores Matemáticos
+## Seccion 3 – Operadores Matematicos
 
-> **Esta sección contiene la solución completa de los ejercicios de operadores, con explicación de lógica y ejemplos de salida.**
+> **Esta seccion contiene la solucion completa de los ejercicios de operadores, con explicacion de logica y ejemplos de salida.**
 
 ### Operadores disponibles en Python
 
@@ -87,7 +87,7 @@ python src/puntaje_final_jugador.py
 
 ### 1. Suma `+`
 
-**Lógica:** Une dos valores. Si alguno es flotante, el resultado es flotante.
+**Logica:** Une dos valores. Si alguno es flotante, el resultado es flotante.
 
 ```python
 print(2 + 3)       # → 5
@@ -106,7 +106,7 @@ print(-4.0 + 8)    # → 4.0
 
 ### 2. Resta `-`
 
-**Lógica:** Sustrae el valor derecho del izquierdo. El signo `-` también funciona como operador unario para negar un número.
+**Logica:** Sustrae el valor derecho del izquierdo. El signo `-` tambien funciona como operador unario para negar un numero.
 
 ```python
 print(10 - 3)      # → 7
@@ -125,7 +125,7 @@ print(-1.1)        # → -1.1  (unario)
 
 ---
 
-### 3. Multiplicación `*`
+### 3. Multiplicacion `*`
 
 **Lógica:** Multiplica dos valores. Sigue la regla `int * int = int`; si alguno es flotante, el resultado es flotante.
 
@@ -146,10 +146,9 @@ print(2.0 * 3.0)   # → 6.0
 
 ---
 
-### 4. División `/`
+### 4. Division `/`
 
-**Lógica:** **Siempre devuelve flotante**, sin importar si los operandos son enteros.
-
+**Logica:** **Siempre devuelve flotante**, sin importar si los operandos son enteros.o
 ```python
 print(6 / 3)       # → 2.0  (no 2)
 print(7 / 2)       # → 3.5
@@ -165,9 +164,9 @@ print(6 / 3.0)     # → 2.0
 
 ---
 
-### 5. División Entera `//`
+### 5. Division Entera `//`
 
-**Lógica:** Divide y **redondea hacia abajo** al entero inferior más cercano (*floor division*). Con enteros devuelve entero; con flotantes devuelve flotante.
+**Logica:** Divide y **redondea hacia abajo** al entero inferior mas cercano (*floor division*). Con enteros devuelve entero; con flotantes devuelve flotante.
 
 ```python
 print(6 // 3)      # → 2
@@ -186,15 +185,15 @@ print(6.0 // -4)   # → -2.0
 -2.0
 ```
 
->  **Importante:** `-6 // 4` no es `-1`, es `-2` porque el redondeo siempre va hacia el entero **inferior** (más negativo).
+>  **Importante:** `-6 // 4` no es `-1`, es `-2` porque el redondeo siempre va hacia el entero **inferior** (mas negativo).
 
 ---
 
-### 6. Módulo / Residuo `%`
+### 6. Modulo / Residuo `%`
 
-**Lógica:** Devuelve el **residuo** de la división entera. Útil para verificar divisibilidad, ciclos, y más.
+**Logica:** Devuelve el **residuo** de la division entera. Util para verificar divisibilidad, ciclos, y mas.
 
-**Fórmula:** `a % b = a - (a // b) * b`
+**Formula:** `a % b = a - (a // b) * b`
 
 ```python
 print(14 % 4)      # → 2   (14//4=3, 3*4=12, 14-12=2)
@@ -213,9 +212,9 @@ print(12 % 4.5)    # → 3.0
 
 ---
 
-### 7. Exponenciación `**`
+### 7. Exponenciacion `**`
 
-**Lógica:** Eleva la base a la potencia del exponente. Usa **enlazado del lado derecho** (se evalúa de derecha a izquierda).
+**Logica:** Eleva la base a la potencia del exponente. Usa **enlazado del lado derecho** (se evalua de derecha a izquierda).
 
 ```python
 print(2 ** 3)        # → 8
@@ -240,11 +239,11 @@ print(3E8)           # → 300000000.0
 
 La jerarquía de mayor a menor prioridad es:
 
-| Prioridad | Operador | Descripción |
+| Prioridad | Operador | Descripcion |
 |:---------:|----------|-------------|
-| 1 | `**` | Exponenciación (enlace derecho) |
+| 1 | `**` | Exponenciacion (enlace derecho) |
 | 2 | `+x`, `-x` | Unarios |
-| 3 | `*`, `/`, `//`, `%` | Multiplicación y división |
+| 3 | `*`, `/`, `//`, `%` | Multiplicacion y division |
 | 4 | `+`, `-` | Suma y resta binarias |
 
 ```python
@@ -266,7 +265,7 @@ print((5*((25%13)+100)/(2*13))//2)  # → 10.0
 
 ---
 
-### 9. Aplicación – Teorema de Pitágoras
+### 9. Aplicacion – Teorema de Pitagoras
 
 ```python
 a = 3.0
@@ -282,19 +281,19 @@ c = 5.0
 
 ---
 
-## Sección 4 – Variables
+## Seccion 4 – Variables
 
 ### Conceptos cubiertos
 - Variables como contenedores de datos con nombre y valor.
 - Reglas de nomenclatura (PEP 8): `snake_case`, sin espacios, sin palabras reservadas.
-- Creación automática al asignar valor: `var = 1`.
-- Operadores de asignación compuesta: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`.
-- Sensibilidad a mayúsculas: `var` ≠ `Var`.
+- Creacion automatica al asignar valor: `var = 1`.
+- Operadores de asignacion compuesta: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`.
+- Sensibilidad a mayusculas: `var` ≠ `Var`.
 
 ### Scripts
-| Archivo | Descripción |
+| Archivo | Descripcion |
 |---|---|
-| `lab_variables.py` | Creación, uso y operadores abreviados |
+| `lab_variables.py` | Creacion, uso y operadores abreviados |
 | `lab_convertidor_simple.py` | Convertidor km↔millas, °C↔°F, horas→segundos |
 | `lab_operadores_expresiones.py` | Expresiones combinadas con variables |
 
@@ -302,7 +301,7 @@ c = 5.0
 
 ##  Proyecto Integrador – `src/puntaje_final_jugador.py`
 
-Script que integra todos los conceptos: variables, literales, y los siete operadores aritméticos para calcular el puntaje final de un jugador.
+Script que integra todos los conceptos: variables, literales, y los siete operadores aritmeticos para calcular el puntaje final de un jugador.
 
 **Ejemplo de salida:**
 ```
@@ -324,8 +323,8 @@ Pts hacia nivel 5 : 400 pts restantes
 
 ---
 
-##  Información del Aprendiz
+##  Informacion del Aprendiz
 
-- **Actividad:** GA1-220501093-04-AA1-EV01
-- **Tema:** Fundamentos de Python: variables, operadores y manipulación de cadenas
+- **Actividad:** Fundamentos de python
+- **Tema:** Fundamentos de Python: variables, operadores y manipulacion de cadenas
 - **Secciones:** 1, 2, 3 y 4
