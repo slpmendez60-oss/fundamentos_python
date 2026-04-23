@@ -1,8 +1,7 @@
-# ============================================================
+
 # puntaje_final_jugador.py
 # Proyecto: Fundamentos de Python
 # Calcula el puntaje final de un jugador usando operadores
-# ============================================================
 
 # Datos del jugador (variables)
 nombre_jugador = "Python Gamer"
@@ -11,23 +10,23 @@ bonus_nivel    = 3        # multiplicador de nivel
 penalizacion   = 200      # puntos perdidos por errores
 vidas_extra    = 2
 
-# ---- Cálculo del puntaje ----
+# ---- Calculo del puntaje ----
 
-# 1. Puntos con bonus de nivel (multiplicación)
+# 1. Puntos con bonus de nivel (multiplicacion)
 puntos_con_bonus = puntos_base * bonus_nivel
 
-# 2. Descontar penalización (resta)
+# 2. Descontar penalizacion (resta)
 puntos_netos = puntos_con_bonus - penalizacion
 
 # 3. Bonus por vidas extra: cada vida extra vale 150 pts (suma)
 bonus_vidas = vidas_extra * 150
 puntos_finales = puntos_netos + bonus_vidas
 
-# 4. Calcular porcentaje sobre puntaje máximo posible (división)
+# 4. Calcular porcentaje sobre puntaje maximo posible (division)
 puntaje_maximo = 5000
 porcentaje = (puntos_finales / puntaje_maximo) * 100
 
-# 5. Nivel de clasificación usando división entera y módulo
+# 5. Nivel de clasificacion usando division entera y modulo
 nivel_alcanzado = puntos_finales // 1000
 residuo_nivel   = puntos_finales % 1000
 
@@ -38,7 +37,7 @@ print("=" * 50)
 print("Jugador        :", nombre_jugador)
 print("Puntos base    :", puntos_base)
 print("Bonus nivel x" + str(bonus_nivel) + " :", puntos_con_bonus)
-print("Penalización   : -" + str(penalizacion))
+print("Penalizacion   : -" + str(penalizacion))
 print("Bonus vidas    : +" + str(bonus_vidas))
 print("-" * 50)
 print("PUNTAJE FINAL  :", puntos_finales)
