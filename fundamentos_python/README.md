@@ -1,10 +1,10 @@
-# 🐍 Fundamentos de Python – GA1-220501093-04-AA1-EV01
+# Fundamentos de Python – GA1-220501093-04-AA1-EV01
 
 Repositorio del proyecto de fundamentos de Python. Contiene los scripts de cada laboratorio de las Secciones 1 a 4, más la solución completa de los ejercicios de operadores matemáticos.
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 fundamentos_python/
@@ -27,7 +27,7 @@ fundamentos_python/
 
 ---
 
-## ▶️ Cómo ejecutar los programas
+## Cómo ejecutar los programas
 
 Requisitos: Python 3.6 o superior instalado.
 
@@ -40,7 +40,7 @@ python src/puntaje_final_jugador.py
 
 ---
 
-## 📚 Sección 1 – El Programa "¡Hola, Mundo!"
+## Sección 1 – El Programa "¡Hola, Mundo!"
 
 ### Conceptos cubiertos
 - La función `print()` y cómo envía texto a la consola.
@@ -57,7 +57,7 @@ python src/puntaje_final_jugador.py
 
 ---
 
-## 📚 Sección 2 – Literales de Python
+## Sección 2 – Literales de Python
 
 ### Conceptos cubiertos
 - Qué es un **literal**: dato cuyo valor está determinado por sí mismo.
@@ -73,7 +73,7 @@ python src/puntaje_final_jugador.py
 
 ---
 
-## 📚 Sección 3 – Operadores Matemáticos
+## Sección 3 – Operadores Matemáticos
 
 > **Esta sección contiene la solución completa de los ejercicios de operadores, con explicación de lógica y ejemplos de salida.**
 
@@ -186,7 +186,7 @@ print(6.0 // -4)   # → -2.0
 -2.0
 ```
 
-> ⚠️ **Importante:** `-6 // 4` no es `-1`, es `-2` porque el redondeo siempre va hacia el entero **inferior** (más negativo).
+>  **Importante:** `-6 // 4` no es `-1`, es `-2` porque el redondeo siempre va hacia el entero **inferior** (más negativo).
 
 ---
 
@@ -282,7 +282,7 @@ c = 5.0
 
 ---
 
-## 📚 Sección 4 – Variables
+## Sección 4 – Variables
 
 ### Conceptos cubiertos
 - Variables como contenedores de datos con nombre y valor.
@@ -300,7 +300,7 @@ c = 5.0
 
 ---
 
-## 🎮 Proyecto Integrador – `src/puntaje_final_jugador.py`
+##  Proyecto Integrador – `src/puntaje_final_jugador.py`
 
 Script que integra todos los conceptos: variables, literales, y los siete operadores aritméticos para calcular el puntaje final de un jugador.
 
@@ -324,7 +324,7 @@ Pts hacia nivel 5 : 400 pts restantes
 
 ---
 
-## 👤 Información del Estudiante
+##  Información del Aprendiz
 
 - **Actividad:** GA1-220501093-04-AA1-EV01
 - **Tema:** Fundamentos de Python: variables, operadores y manipulación de cadenas
