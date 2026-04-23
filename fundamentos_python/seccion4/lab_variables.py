@@ -1,7 +1,6 @@
-# ============================================================
+
 # LAB: Variables
-# Sección 4 – Variables
-# ============================================================
+# Seccion 4 – Variables
 
 # --- Crear y usar variables ---
 var = 1
@@ -11,7 +10,7 @@ print(var)
 var = var + 1
 print(var)
 
-# Múltiples variables de distintos tipos
+# Multiples variables de distintos tipos
 account_balance = 1000.0
 client_name = 'John Doe'
 print(var, account_balance, client_name)
@@ -20,7 +19,7 @@ print(var, account_balance, client_name)
 python_version = "3.8.5"
 print("Python version: " + python_version)
 
-# Predecir el resultado de reasignación
+# Predecir el resultado de reasignacion
 var2 = 100
 var2 = 200 + 300
 print(var2)   # resultado: 500
@@ -49,7 +48,7 @@ rem = 17
 rem %= 10   # rem = rem % 10
 print("17 %= 10 →", rem)
 
-# --- Teorema de Pitágoras con variables ---
+# --- Teorema de Pitagoras con variables ---
 a = 3.0
 b = 4.0
 c = (a ** 2 + b ** 2) ** 0.5

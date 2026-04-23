@@ -1,7 +1,6 @@
-# ============================================================
+
 # LAB: Operadores y expresiones
-# Sección 4 – Variables
-# ============================================================
+# Seccion 4 – Variables
 
 # Expresiones con variables
 i = 4
@@ -26,11 +25,11 @@ x = 2
 x **= 2              # x = x ** 2 = 4
 print("x **= 2   → x =", x)
 
-# Calculando el área de un círculo
+# Calculando el area de un circulo
 radio = 5
 PI = 3.14159
 area_circulo = PI * radio ** 2
-print("\nÁrea del círculo con radio", radio, "=", area_circulo)
+print("\nArea del circulo con radio", radio, "=", area_circulo)
 
 # Calculando potencias sucesivas de 2
 potencia = 1

@@ -1,9 +1,8 @@
-# ============================================================
-# LAB: Variables – Un convertidor simple
-# Sección 4 – Variables
-# ============================================================
 
-# Convertidor de kilómetros a millas
+# LAB: Variables – Un convertidor simple
+# Seccion 4 – Variables
+
+# Convertidor de kilometros a millas
 km = 12.25
 millas = km * 0.621371
 print(km, "km son", millas, "millas")
